@@ -48,6 +48,5 @@ app.post("/todos", async (request, response) => {
                                 );`;
     await db.run(addTodoQuery)
     response.send("Todo Added Successfully")
-
 })
 
